@@ -18,3 +18,10 @@ addItem[0].style.color = "green"
 // addItem.style.color="green"
 addItem[0].style.weight="bold"
 
+var listGroup = document.getElementsByClassName("list-group-item")
+
+listGroup[2].style.backgroundColor="green"
+for(let i=0;i<listGroup.length;i++){
+    listGroup[i].style.fontWeight = "bold"
+}
+
